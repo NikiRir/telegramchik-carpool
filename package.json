@@ -1,0 +1,20 @@
+{
+  "name": "telegram-carpool-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для поиска попутки/попутчиков",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["telegram", "bot", "carpool", "попутчики"],
+  "author": "Anonym",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
